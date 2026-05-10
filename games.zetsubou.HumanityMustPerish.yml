@@ -22,13 +22,13 @@ modules:
       - install -Dm644 games.zetsubou.HumanityMustPerish.png "/app/share/icons/hicolor/256x256/apps/games.zetsubou.HumanityMustPerish.png"
     sources:
       - type: archive
-        url: "https://www.dropbox.com/scl/fi/hg2vikbf8dg3qoeg4o08w/v1.2.2-x86_64.tar.bz2?rlkey=rdupagnawvn7uav2ubpr5xw3e&dl=1"
-        sha512: a7c68875524fabc93a939cfeb25009de36a5a9f1890c6b7e3635733d2670c63f2be582e928abf5a54f28dce1f9fa6b5de9543b0828648f72918443a54a95e6b4
+        url: https://gitlab.com/zetsubougames-builds/humanity-must-perish/-/releases/v1.2.3/downloads/humanity-must-perish-linux-amd64.zip
+        sha512: 0b8eb25ac6ab2f9b3da0a95d7eb89c729888afbaac5960d1ff3d029d2c535fee563d8a3f7fc8fa19d9385f37dc69bf252e03a1cec2f2ae7a92b838f588061b44
         only-arches:
           - x86_64
       - type: archive
-        url: "https://www.dropbox.com/scl/fi/1aj7dk20om414b6wcxx7p/v1.2.2-aarch64.tar.bz2?rlkey=lvx8bv9iqsawquidffxa6z0x9&dl=1"
-        sha512: d31dea865febb26316270cfeb057b22c29b49c7ab99715151dcc3637283ab9f2b2b5f506a84d6b02747390c9f1008b179c4331943236f21887f4bf4fc9bf8d5a
+        url: https://gitlab.com/zetsubougames-builds/humanity-must-perish/-/releases/v1.2.3/downloads/humanity-must-perish-linux-aarch64.zip
+        sha512: b96c94de9733586175215084a09736cec756b72d0b9846082fa30080976f063501a4188b78e3047c0b3394025c1722e63ce0a924fbe457b306dcff07cafa6182
         only-arches:
           - aarch64
       - type: file
