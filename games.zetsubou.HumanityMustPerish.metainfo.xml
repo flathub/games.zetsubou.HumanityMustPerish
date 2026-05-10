@@ -3,7 +3,7 @@
 	<id>games.zetsubou.HumanityMustPerish</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<name>Humanity Must Perish</name>
-	<summary>A comedic visual novel about an android dressed as a high school girl as she prepares to destroy humanity</summary>
+	<summary>An android high school girl prepares to destroy humanity in this comedic visual novel</summary>
 	<description>
 		<p>As an android whose sole purpose is to save planet Earth from destruction at the hands of mankind, Kyuu minces no words as she announces her plans to extinguish the human race.</p>
 		<p>For the sake of preserving planet Earth, humanity must perish. Failing that, mankind must be enslaved. Those are the only two options, and if Kyuu has her way, the former will soon become a reality.</p>
@@ -32,7 +32,9 @@
 		</release>
 	</releases>
 	<project_license>LicenseRef-proprietary</project_license>
-	<developer_name>Zetsubou Games</developer_name>
+	<developer id="games.zetsubou">
+		<name>Zetsubou Games</name>
+	</developer>
 	<screenshots>
 		<screenshot type="default">
 			<image type="source">https://cdn.zetsubou.games/Flatpak/HumanityMustPerish/screenshots/1.jpg</image>
