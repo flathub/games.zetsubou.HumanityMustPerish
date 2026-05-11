@@ -2,32 +2,40 @@
 <component type="desktop-application">
 	<id>games.zetsubou.HumanityMustPerish</id>
 	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LicenseRef-proprietary</project_license>
 	<name>Humanity Must Perish</name>
-	<summary>A comedic visual novel about an android dressed as a high school girl as she prepares to destroy humanity</summary>
+	<summary>An android high school girl prepares to destroy humanity in this comedic visual novel</summary>
 	<description>
 		<p>As an android whose sole purpose is to save planet Earth from destruction at the hands of mankind, Kyuu minces no words as she announces her plans to extinguish the human race.</p>
 		<p>For the sake of preserving planet Earth, humanity must perish. Failing that, mankind must be enslaved. Those are the only two options, and if Kyuu has her way, the former will soon become a reality.</p>
 		<p>Before she can do so, however, her creator makes a proposition: Kyuu will spend one day among regular, everyday human beings, judging for herself whether they are capable of meaningful change or not.</p>
 		<p>Kyuu accepts this proposition, and thus sets out into the world for the first time, coming face to face with a variety of odd individuals as she decides the fate of mankind.</p>
 		<p>Will Kyuu's colorful encounters show her the good in human society? Or will the bizarre antics of those who she meets reaffirm her belief that mankind must be destroyed?</p>
-		<p>Whatever her decision may be, the impressions Kyuu leaves on those she meets won't soon be forgotten. She is a harsh critic, and for a race as flawed as mankind, her observations and misunderstandings will be boundless.</p>
+		<p>Whatever her decision may be, the impressions Kyuu leaves on those she meets won't soon be forgotten. She is a harsh critic, and for a race as flawed as mankind, 
+			her observations and misunderstandings will be boundless.</p>
 	</description>
 	<categories>
 		<category>Game</category>
 	</categories>
 	<url type="homepage">https://zetsubou.games</url>
 	<url type="bugtracker">https://github.com/koroshiya/hmp-flatpak/issues</url>
-	<url type="contact">https://twitter.com/ZetsubouGames</url>
+	<url type="contact">https://zetsubou.games/links/</url>
+	<developer id="games.zetsubou">
+		<name>Zetsubou Games</name>
+	</developer>
 	<launchable type="desktop-id">games.zetsubou.HumanityMustPerish.desktop</launchable>
 	<releases>
+		<release version="1.2.3" date="2026-05-10">
+			<description>
+				<p>Updates the game engine and flatpak runtime versions</p>
+			</description>
+		</release>
 		<release version="1.2.2" date="2022-08-12">
 			<description>
 				<p>Version 1.2.2 is the initial flatpak release</p>
 			</description>
 		</release>
 	</releases>
-	<project_license>LicenseRef-proprietary</project_license>
-	<developer_name>Zetsubou Games</developer_name>
 	<screenshots>
 		<screenshot type="default">
 			<image type="source">https://cdn.zetsubou.games/Flatpak/HumanityMustPerish/screenshots/1.jpg</image>
@@ -52,4 +60,13 @@
 		<color type="primary" scheme_preference="light">#ffa348</color>
 		<color type="primary" scheme_preference="dark">#3d3846</color>
 	</branding>
+	<supports>
+		<control>keyboard</control>
+		<control>pointing</control>
+		<control>touch</control>
+		<control>gamepad</control>
+	</supports>
+	<requires>
+		<display_length compare="ge">768</display_length>
+	</requires>
 </component>
